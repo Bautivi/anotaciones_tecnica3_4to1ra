@@ -47,7 +47,7 @@ html, body {
     display: none;
     transform-origin: center;
     top: 8%;
-    right: 24%;
+    right: 26%;
     background: linear-gradient(to bottom, #1a2932, #170c22);
     border: 2px solid #ffffff;
     border-radius: 2px;
@@ -56,9 +56,12 @@ html, body {
 }
 
 .input_submenu {
+    position: absolute;
     background-color: #ffffff;
     border: 2px solid #ffffff;
     outline: none;
+    right: 200%;
+    top: 20%;
 }
 
 .input_submenu:focus {
@@ -79,11 +82,11 @@ html, body {
     z-index: 1;
 }
 #input_submenu_1 {
-    position: relative;
+    position: absolute;
     border-radius: 2px;
     transform-origin: center;
-    top: 180px;
-    right: 500px;
+    top: 30%;
+    right: 27%;
     width: 320px;
     height: 22px;
     color: #1a0236;
@@ -101,16 +104,16 @@ html, body {
     font-weight: 1000px;
     letter-spacing: 2px;
     color: #ffffff;
-    right: -20%;
-    top: -200%;
+    right: 28%;
+    top: 10%;
     font-family: 'fredoka one';
     z-index: 2;
 }
 
 #submenu_titulo_2 {
-    position: relative;
-    right: 830px;
-    top: 262px;
+    position: absolute;
+    right: 75%;
+    top: 60%;
     font-size: 20px;
     font-weight: 600px;
     letter-spacing: 1px;
@@ -119,9 +122,9 @@ html, body {
 }
 
 #submenu_titulo_3 {
-    position: relative;
-    right: 360px;
-    top: 260px;
+    position: absolute;
+    right: 10%;
+    top: 60%;
     font-size: 20px;
     font-weight: 600px;
     letter-spacing: 1px;
@@ -130,8 +133,11 @@ html, body {
 }
 
 #submenu_botón_salir {
+    position: absolute;
     width: 24px;
     height: 24px;
+    top: 0%;
+    right: 96%;
     text-align: center;
     border: none;
     border-radius: 2px;
